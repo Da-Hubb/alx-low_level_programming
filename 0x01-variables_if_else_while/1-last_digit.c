@@ -12,7 +12,6 @@ int main(void)
 
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
-	/* using modulus to get my last digit */
 	int ld;
 
 	ld = n % 10;
