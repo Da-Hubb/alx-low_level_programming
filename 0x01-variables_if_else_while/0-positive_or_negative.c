@@ -2,14 +2,15 @@
 #include <time.h>
 #include <stdio.h>
 /* more headers goes there */
-/*
- * main
+/**
+ * main - function to check if iteger is greater or less than zero
  *
- * returns zero everytime
+ * Return:  zero everytime
  */
 int main(void)
 {
-	int n;	
+	int n;
+
 	srand(time(0));
 	n = rand() - RAND_MAX / 2;
 	if (n < 0)
