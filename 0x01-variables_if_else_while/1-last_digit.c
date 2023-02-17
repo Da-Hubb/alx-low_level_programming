@@ -15,7 +15,7 @@ int main(void)
 	/* using modulus to get my last digit */
 	int ld;
 
-	ld= n % 10;
+	ld = n % 10;
 	if (ld > 5)
 	{
 		printf("Last digit of %d is %d and is greater than 5\n", n, ld);
