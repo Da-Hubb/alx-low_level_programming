@@ -13,8 +13,8 @@ int main(void)
 		putchar(a + '0');
 		if (a < 99)
 		{
-			putchar(",");
-			putchar(" ");
+			putchar(',');
+			putchar(' ');
 		}
 		a++;
 	}
